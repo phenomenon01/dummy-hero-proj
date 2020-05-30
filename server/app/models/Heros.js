@@ -11,7 +11,7 @@ const superHeros = [
   "HULK",
   "BLADE",
   "PHANTOM",
-  "PRIDERMAN",
+  "SPRIDERMAN",
   "BLACKWIDOW",
   "HELLBOY",
   "PUNISHER",
