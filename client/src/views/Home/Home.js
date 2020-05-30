@@ -25,6 +25,7 @@ const App = () => {
 
   const sendCode = async () => {
     setHero("");
+    setError("");
     if (code === "") return setError("Empty Code");
     try {
       setLoading("sendCode");
