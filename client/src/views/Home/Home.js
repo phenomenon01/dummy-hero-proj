@@ -75,7 +75,10 @@ const App = () => {
                 <InputAdornment position="end">
                   <IconButton
                     aria-label="toggle password visibility"
-                    onClick={() => updateInputBox("")}
+                    onClick={() => {
+                      updateInputBox("");
+                      setHero("");
+                    }}
                   >
                     <CancelIcon />
                   </IconButton>
