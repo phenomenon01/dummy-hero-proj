@@ -70,6 +70,7 @@ const App = () => {
             className="codeInput"
             value={code}
             inputRef={inputBoxRef}
+            onChange={(v) => updateInputBox(v.target.value)}
             InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
