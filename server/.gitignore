@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+#/app/config/dev
+#.env
+
+
+npm-debug.log*
+package-lock.json

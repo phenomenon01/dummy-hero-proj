@@ -1,0 +1,56 @@
+@import "style/colors.scss";
+
+.pageNotFound {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $login-screen-background;
+  overflow: hidden;
+  p {
+    color: #656565;
+  }
+  .grid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    .inBox {
+      box-shadow: unset;
+      border: 1px solid #8ea9f5;
+      padding: 4rem;
+      border-radius: 1.5rem;
+      text-align: center;
+      img {
+        width: 90%;
+        margin-bottom: 3rem;
+      }
+      a {
+        text-decoration: unset;
+      }
+      button {
+        background-color: #5a8bfc;
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .pageNotFound .grid {
+    height: 100%;
+    .grid-in {
+      flex-grow: 1;
+      height: 100%;
+      max-width: 100%;
+      .inBox {
+        border-radius: unset;
+        height: 100%;
+        border: unset;
+      }
+    }
+  }
+}
